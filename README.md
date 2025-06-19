@@ -5,7 +5,7 @@ This site showcases who I am, what I do, and how to contact me.
 
 ## ✨ Preview
 
-![Portfolio Screenshot](./preview.png) <!-- Заменить на актуальный скриншот, если хочешь -->
+![Portfolio Screenshot](./images/preview.png) 
 
 ## 🚀 Live Demo
 
