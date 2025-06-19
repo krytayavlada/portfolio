@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    background-color: #DADADA;
+    width: 595px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px 26px;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.user-name {
+  font-weight: 800;
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.user-post {
+  margin: 0;
+}
+
+.user-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.user-info {
+  margin-right: auto;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-link {
+  display: block;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus-visible {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navigation-link:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-hero {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 48px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.hero-img {
+  margin: 0;
+  border-radius: 10px;
+  margin-right: 32px;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.hero-biography {
+  margin: 0;
+}
+
+.skills {
+  padding: 12px 15px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.skills-title {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.skills-name {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.skills-strip {
+  position: relative;
+  height: 9px;
+  background-color: #E1E1E1;
+  border-radius: 40px;
+  width: 253px;
+}
+
+.common-strip {
+  position: absolute;
+  height: 9px;
+  background-color: #A7A7A7;
+  border-radius: 40px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 7px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experience {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.experience-title {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.experience-name {
+  margin: 0;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.experience-year {
+  margin: 0;
+}
+
+.education-name {
+  margin: 0;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.education-year {
+  margin: 0;
+}
+
+.experience-education-wrapper{
+  display: flex;
+  gap: 29px;
+}
+
+.experience-wrapper {
+  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-left: 11px;
+  border: 1px solid #A7A7A7;
+  border-radius: 5px;
+  width: 242px;
+}
+
+.education-wrapper {
+  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-left: 11px;
+  border: 1px solid #A7A7A7;
+  border-radius: 5px;
+  width: 242px;
+}
+
+.contact {
+  padding: 12px 15px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.contact-title {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.contact-form {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.field {
+  margin: 0;
+  padding: 3px 7px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 300;
+  color: #A7A7A7;
+  font-family: inherit;
+  border: 1px solid #A7A7A7;
+  border-radius: 3px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.field-textarea {
+  resize: none;
+}
+
+.contact-submit {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 21px;
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  padding-bottom: 3px;
+  padding-top: 2px;
+  border-radius: 2px;
+}
+
+.contact-submit:hover,
+.contact-submit:focus-visible {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-submit:active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-potfolio {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+}
+
+.copyright {
+  margin: 0;
+}
