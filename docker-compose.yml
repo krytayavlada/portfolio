@@ -1,0 +1,7 @@
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:80"   # Доступ к приложению на http://localhost:3000
+    restart: unless-stopped

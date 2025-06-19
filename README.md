@@ -32,7 +32,7 @@ docker build -t my-react-app .
 
 Запустите приложение с помощью docker-compose:
 docker compose up --build .
-![Приложение запущено, контейнер работает] (./images/docker-up.png)
+![Приложение запущено, контейнер работает](./images/docker-up.png)
 
 
 
