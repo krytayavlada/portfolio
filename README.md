@@ -20,3 +20,20 @@ This site showcases who I am, what I do, and how to contact me.
 
 ## 🧱 Project Structure
 
+## 🐳 Docker
+
+### 📦 Сборка Docker-образа
+
+Для создания Docker-образа выполните команду:
+docker build -t my-react-app .
+![Результат сборки](./images/docker-build.png) 
+
+### ▶️ Запуск контейнера
+
+Запустите приложение с помощью docker-compose:
+docker compose up --build .
+![Приложение запущено, контейнер работает] (./images/docker-up.png)
+
+
+
+
